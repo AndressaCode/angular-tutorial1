@@ -4,6 +4,7 @@ export class Frase {
   public frasePtBr: string
 
   constructor(fraseEng: string, frasePtBr: string){
-
+    this.fraseEng = fraseEng,
+    this.frasePtBr = frasePtBr
   }
 }
